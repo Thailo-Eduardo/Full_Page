@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+	<title></title>
+	
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
+	<script src="js/jquery.easings.min.js"></script>
+	<script src="js/jquery.slimscroll.js"></script>
+	<script src="js/jquery.fullPage.js"></script>
+
+
+
+	<script>
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				//sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
+				css3:true,
+				scrollingSpeed: 300,
+
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<section>
+	<div id="fullpage">
+	    <div class="section cabecalho"><h1>full Page</h1></div>
+	        <div class="section">
+			    <div class="slide titulo1"></div>
+			    <div class="slide titulo2"></div>
+			    <div class="slide titulo3"></div>
+			    <div class="slide titulo4"></div>
+			</div>
+	    <div class="section conteudo1"></div>
+	    <div class="section conteudo2"></div>
+	    <div class="section rodape"></div>
+	</div>
+</section>
+
+</body>
+</html>
