@@ -1,0 +1,57 @@
+.section{
+	text-align:center;
+	color:#FFF;
+}
+
+.cabecalho{
+	background-image: url('../img/Chicago.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.content{
+	width:100%;
+	height:1000px;
+}
+
+.titulo1{
+	background-image: url('../img/code.png');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo2{
+	background-image: url('../img/programmer.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo3{
+	background-image: url('../img/Rails_Developer.png');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.titulo4{
+	background-image: url('../img/web_developer.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.conteudo1{
+	background-image: url('../img/Space.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.conteudo2{
+	background-image: url('../img/Loading.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
+
+.rodape{
+	background-image: url('../img/Lenovo.jpg');
+	background-size: cover!important;
+    background-position: center!important;
+}
